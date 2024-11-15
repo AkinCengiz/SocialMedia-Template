@@ -1,0 +1,47 @@
+/* Navbar rengi */
+.navbar {
+  background-color: #4d636f;
+}
+
+/* İkon renkleri ve geçiş efekti */
+.navbar .nav-link {
+  color: #ffffff;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+/* İkonlar arasına boşluk eklemek için sağ kenar boşluğu */
+.navbar .nav-item:not(:last-child) {
+  margin-right: 20px; /* Boşluk miktarını buradan ayarlayabilirsiniz */
+}
+
+/* Hover efekti: arka plan beyaz, ikonlar siyah */
+.navbar .nav-link:hover,
+.navbar .nav-link:hover i {
+  color: #000000; /* İkon rengi siyah olacak */
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+/* Bildirim rozet rengi */
+.badge {
+  background-color: #4caf50;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* İconun altına yapışık görünmesi için */
+}
+
+#navDemo a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+/* Hover efekti */
+#navDemo a:hover {
+  background-color: #640404;
+  color: #010a0f;
+}
