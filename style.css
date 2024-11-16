@@ -1,47 +1,196 @@
-/* Navbar rengi */
+/* Navbar color */
 .navbar {
   background-color: #4d636f;
+  margin-bottom: 10px;
 }
 
-/* İkon renkleri ve geçiş efekti */
+/* Badge position and styles */
+.notification-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #28a745;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 10px;
+}
+
+#notificationsDropdown::after {
+  display: none;
+}
+
+/* Icon colors and transition */
 .navbar .nav-link {
   color: #ffffff;
   transition: color 0.3s, background-color 0.3s;
 }
 
-/* İkonlar arasına boşluk eklemek için sağ kenar boşluğu */
+/* Right margin to add space between icons */
 .navbar .nav-item:not(:last-child) {
-  margin-right: 20px; /* Boşluk miktarını buradan ayarlayabilirsiniz */
+  margin-right: 20px;
 }
 
-/* Hover efekti: arka plan beyaz, ikonlar siyah */
+.dropdown-item:hover {
+  background-color: #dfe5e8;
+  color: #000000;
+}
+
+.btn-primary {
+  background-color: #607d8b;
+  border-color: #607d8b;
+  color: #ffffff; /* Default text color white */
+}
+
+.btn-primary:hover {
+  background-color: #cccccc;
+  color: #000000; /* Text and icon color black on hover */
+}
+
+/* Change icon color to black on hover */
+.btn-primary:hover i {
+  color: #000000;
+}
+
+/* Card header styling */
+.card-header {
+  background-color: #7d98a4;
+  padding: 0;
+  border: none;
+}
+
+/* Button styling inside card header */
+.card-header .btn {
+  background-color: transparent;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button hover effect in card header */
+.card-header .btn:hover {
+  background-color: #cccccc;
+  color: #000000;
+}
+
+/* Hover effect for navbar links and icons */
 .navbar .nav-link:hover,
 .navbar .nav-link:hover i {
-  color: #000000; /* İkon rengi siyah olacak */
+  color: #000000;
   background-color: #ffffff;
   border-radius: 4px;
 }
 
-/* Bildirim rozet rengi */
-.badge {
-  background-color: #4caf50;
+/* Primary badge color */
+.badge-primary {
+  background-color: #4c636e;
+  color: #ffffff;
 }
 
+/* Secondary badge color */
+.badge-secondary {
+  background-color: #5b7682;
+  color: #ffffff;
+}
+
+/* Success badge color */
+.badge-success {
+  background-color: #7d98a4;
+  color: #ffffff;
+}
+
+/* Danger badge color */
+.badge-danger {
+  background-color: #4c636e;
+  color: #ffffff;
+}
+
+/* Warning badge color */
+.badge-warning {
+  background-color: #7d98a4;
+  color: #ffffff;
+}
+
+/* Info badge color */
+.badge-info {
+  background-color: #7d98a4;
+  color: #ffffff;
+}
+
+/* Light badge color */
+.badge-light {
+  background-color: #d1d9dc;
+  color: #5b7682;
+}
+
+/* Dark badge color */
+.badge-dark {
+  background-color: #aeb7bc;
+  color: #000000;
+}
+
+/* Info alert styling */
+.alert-info {
+  background-color: #dfe5e8;
+  color: #000000;
+  border: none;
+}
+
+/* Close button styling in info alert */
+.alert-info .close {
+  background-color: #aeb7bc;
+  color: #000000;
+  border-radius: 4px;
+  opacity: 1;
+  padding: 5px 10px;
+}
+
+/* Close button hover effect in info alert */
+.alert-info .close:hover {
+  background-color: #8a9aa3;
+}
+
+/* Show dropdown menu on hover for nav-item */
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 0; /* İconun altına yapışık görünmesi için */
+  margin-top: 0;
 }
 
+/* NavDemo link styling */
 #navDemo a {
-  color: #ffffff;
+  color: #1d1616;
   text-decoration: none;
   padding: 10px;
   display: block;
   transition: background-color 0.3s;
 }
 
-/* Hover efekti */
+/* NavDemo link hover effect */
+#navDemo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 #navDemo a:hover {
-  background-color: #640404;
-  color: #010a0f;
+  background-color: #cccccc;
+  color: #010a0f !important;
+}
+
+/* Custom button styling */
+button.custom-btn {
+  background-color: #dfe4e7 !important;
+  color: #000000 !important;
+  border: none !important;
+  transition: background-color 0.3s ease;
+}
+
+/* Custom button hover effect */
+button.custom-btn:hover {
+  background-color: #dfe5e8 !important;
+  color: #000000 !important;
 }
