@@ -4,7 +4,7 @@ This project is a **clone** of the [W3Schools Social Media Template](https://www
 
 ## Live Demo
 
-A live demo link will be available here once the project is deployed.
+You can view a live demo of the project [here](https://mehmetalbyrak.github.io/SocialMedia-Template/).
 
 ## Features
 
@@ -21,7 +21,6 @@ The project includes the following main files and folders:
 - **images/** - Stores images used throughout the project.
 
 > **Note**: JavaScript functions are written inline within the HTML file.
-
 
 ## License
 
